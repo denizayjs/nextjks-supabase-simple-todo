@@ -15,6 +15,7 @@ export default function Home() {
         <Auth
           supabaseClient={supabase}
           appearance={{ theme: ThemeSupa }}
+          providers={["google"]}
           theme="dark"
         />
       ) : (
