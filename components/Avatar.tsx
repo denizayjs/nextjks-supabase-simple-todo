@@ -9,7 +9,7 @@ export default function Avatar({
   size,
   onUpload,
 }: {
-  uid: string;
+  uid?: string | null;
   url: Profiles["avatar_url"];
   size: number;
   onUpload: (url: string) => void;
