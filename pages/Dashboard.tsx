@@ -27,7 +27,7 @@ export default function Dashboard({ session }) {
           </ModalContent>
         </Modal>
       </div>
-      <div className="todo w-5/4 my-4 p-4 bg-white flex justify-center  rounded-xl min-h-full text-black">
+      <div className="todo w-5/4 my-4 p-4 bg-white flex-col rounded-xl min-h-full text-black">
         <Todo></Todo>
       </div>
     </>
